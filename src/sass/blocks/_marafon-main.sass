@@ -1,11 +1,13 @@
 .marafon-main
     position: relative
-    height: 100vh
+    min-height: 300px
     width: 100vw
     background: $yellow
     text-align: center
     color: #fff
     &__main-bg
+        img
+            width: 100%
         &::after
             content: ''
             display: block
@@ -15,7 +17,6 @@
             left: 0
             top: 0
             background-color: rgba($yellow, .6)
-
     h1
         position: absolute
         top: 20%
@@ -26,3 +27,8 @@
         font-weight: 900
         span
             font-size: 35px
+    &__btn
+        position: absolute
+        bottom: 15%
+        left: 50%
+        transform: translateX(-50%)

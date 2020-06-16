@@ -1,0 +1,37 @@
+.marafon-program
+    min-height: 500px
+    padding: 50px 0 50px
+    &__box
+        position: relative
+        padding: 0 40px
+        .num
+            position: absolute
+            top: 0
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 40px
+            height: 40px
+            border-radius: 100%
+            background-color: $purple
+            font-size: 20px
+            font-weight: 700
+            color: #fff
+            z-index: 10
+            &_left
+                left: -35px
+            &_right
+                right: -35px
+    &__title
+        font-size: 20px
+        font-weight: 700
+    &__descr
+    &__wrapper
+        position: relative
+    &__line
+        position: absolute
+        top: 0
+        left: 50%
+        transform: translateX(-50%)
+        border-right: 2px solid $purple
+        height: 83%

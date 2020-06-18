@@ -3,6 +3,16 @@
     padding: 50px 0 80px
     background-color: rgba(0, 0, 0, .6)
     color: #fff
+    &__wrapper
+        position: relative
+        .line
+            position: absolute
+            top: 0
+            left: 50%
+            transform: translateX(-50%)
+            border-right: 2px solid #e678e0
+            height: 87%
+            z-index: -0
     &__box
         position: relative
         padding: 0 40px
@@ -15,7 +25,7 @@
             width: 40px
             height: 40px
             border-radius: 100%
-            background-color: $purple
+            background-color: #e678e0
             font-size: 20px
             font-weight: 700
             color: #fff
@@ -27,13 +37,3 @@
     &__title
         font-size: 20px
         font-weight: 700
-    &__descr
-    &__wrapper
-        position: relative
-    &__line
-        position: absolute
-        top: 0
-        left: 50%
-        transform: translateX(-50%)
-        border-right: 2px solid $purple
-        height: 83%

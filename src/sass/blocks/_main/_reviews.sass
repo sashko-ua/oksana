@@ -2,6 +2,10 @@
     background: linear-gradient(25deg, rgba(208,208,208,1) 36%, rgba(255,255,255,1) 83%)
     padding: 50px 0
     min-height: 500px
+    &__title
+        font-size: 50px
+        margin: 0 0 50px
+        font-weight: 600
     .slick
         margin: 0 auto
         width: 60vw
@@ -15,3 +19,17 @@
                 left: 50%
                 transform: translate(-50%, -50%)
                 width: 60%
+        .marathon-bg
+            background: #F4786E
+        .slick-prev, .slick-next
+            &:before
+                position: absolute
+                top: 50%
+                transform: translatey(-50%)
+                font-size: 100px
+        .slick-prev
+            &::before
+                left: -80px
+        .slick-next
+            &:before
+                right: -80px

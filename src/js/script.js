@@ -15,8 +15,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     $(document).ready(function(){
         $('.slick').slick({
             adaptiveHeight: true,
-            // autoplay: true,
-            dots: true,
+            autoplay: true,
         });
     });
 });

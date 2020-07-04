@@ -17,6 +17,12 @@
     .products
         &__title
             font-size: 25px
+        &__box
+            padding: 20px 0
+
+    // __________REVIEWS__________
+    .reviews
+        min-height: 675px
 
 @media ( max-width: 991px )
     // __________MAIN__________
@@ -37,6 +43,7 @@
 
     // __________REVIEWS__________
     .reviews
+        min-height: 650px
         &__title
             color: #000
         .fz
@@ -94,6 +101,9 @@
 
     // __________FOOTER__________
     .footer
+        img
+            margin: 0 15px
+            width: 45px
         .sashko
             right: 0%
 
@@ -104,17 +114,25 @@
             font-size: 35px
     // __________REVIEWS__________
     .reviews
+        min-height: 600px
         &__title
             font-size: 30px
         .container
             width: 95%
+        .back
+            a
+                img
+                    width: 20px
 
     // __________FOOTER__________
     .footer
+        img
+            margin: 0 15px
+            width: 40px
         &__wrapper
             left: 18%
 
-@media ( max-width: 415px )
+@media ( max-width: 500px )
     // __________MAIN__________
     .main
         height: 530px
@@ -125,11 +143,6 @@
         .typed
             font-size: 25px
             left: 15%
-
-    // __________FOOTER__________
-    .footer
-        &__wrapper
-            left: 25%
 
     // __________ABOUT__________
     .about
@@ -154,21 +167,53 @@
 
     // __________REVIEWS__________
     .reviews
+        min-height: 445px
         .slick
             &__wrapper
                 img
                     width: 80%
 
-@media ( max-width: 385px )
+    // __________FOOTER__________
+    .footer
+        img
+            margin: 0 15px
+            width: 35px
+        .sashko
+            font-size: 18px
+        &__wrapper
+            left: 25%
+
+@media ( max-width: 405px )
     // __________ABOUT__________
     .about
-        min-height: 765px
+        min-height: 730px
+
+    // __________FOOTER__________
+    .footer
+        img
+            width: 30px
+        .sashko
+            font-size: 16px
+            width: 155px
 
 @media ( max-width: 360px )
+    // __________MAIN__________
     .main
         .typed
             font-size: 25px
             left: 12%
+
+    // __________ABOUT__________
+    .about
+        min-height: 750px
+        &__title
+            font-size: 17px
+
+    // __________REVIEWS__________
+    .reviews
+        min-height: 425px
+        .container
+            width: 90%
 
 @media ( max-width: 320px )
     // __________ABOUT__________
@@ -182,3 +227,9 @@
             width: 260px
         .typed
             font-size: 22px
+
+    // __________REVIEWS__________
+    .reviews
+        .back
+            a
+                font-size: 18px

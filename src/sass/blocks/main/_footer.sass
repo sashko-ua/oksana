@@ -1,12 +1,23 @@
 .footer
+    position: relative
     display: flex
     align-items: center
-    min-height: 50px
-    background: #000
-    .container
-        display: flex
-        justify-content: flex-end
-        a
-            width: 150px
-            color: #ffffff
-            text-transform: uppercase
+    min-height: 80px
+    background: #838383
+    img
+        margin: 0 15px
+        width: 50px
+    &__wrapper
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+    .sashko
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        right: 10%
+        font-size: 20px
+        width: 200px
+        color: #000
+        text-transform: uppercase

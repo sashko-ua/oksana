@@ -1,7 +1,8 @@
 .reviews
+    position: relative
     background: linear-gradient(25deg, rgba(208,208,208,1) 36%, rgba(255,255,255,1) 83%)
     padding: 50px 0
-    min-height: 500px
+    min-height: 770px
     &__title
         font-size: 50px
         margin: 0 0 50px
@@ -37,3 +38,16 @@
         .slick-next
             &:before
                 right: -80px
+
+    .back
+        position: absolute
+        bottom: 4%
+        left: 50%
+        transform: translateX(-50%)
+        a
+            text-transform: uppercase
+            color: #000000
+            text-decoration: none
+            font-size: 20px
+            img
+                width: 30px

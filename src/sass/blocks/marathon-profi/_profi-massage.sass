@@ -1,0 +1,51 @@
+.profi-massages
+    padding: 50px 0
+    min-height: 300px
+    p
+        margin: 0 auto
+        width: 75%
+        word-wrap: break-word
+        margin-bottom: 12px
+        line-height: 24px
+        position: relative
+        padding: 10px 20px
+        border-radius: 25px
+        font-size: 20px
+        font-weight: 700
+        span
+            font-weight: 500
+            font-size: 16px
+        &:before, &:after 
+            content: ""
+            position: absolute
+            bottom: -2px
+            height: 20px
+    .from-me 
+        color: white;
+        background: #addddf 
+        align-self: flex-end
+        &:before 
+            right: -7px
+            border-right: 20px solid #addddf 
+            border-bottom-left-radius: 16px 14px
+            transform: translate(0, -2px)
+        &:after 
+            right: -56px
+            width: 26px
+            background: white
+            border-bottom-left-radius: 10px
+            transform: translate(-30px, -2px)
+    .from-them 
+        background: #E5E5EA
+        color: black
+        &:before 
+            left: -7px
+            border-left: 20px solid #E5E5EA
+            border-bottom-right-radius: 16px 14px
+            transform: translate(0, -2px)
+        &:after 
+            left: 4px
+            width: 26px
+            background: white
+            border-bottom-right-radius: 10px
+            transform: translate(-30px, -2px)
